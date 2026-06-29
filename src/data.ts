@@ -1,5 +1,8 @@
 import { Benefit, VitalMethodStep, StepCard, Testimonial, FAQItem } from './types';
 
+import coachImage from './assets/images/wellness_coach_portrait_1782582910502.jpg';
+import productImage from './assets/images/multydrink_product_1782582896280.jpg';
+
 export const HERO_DATA = {
   headline: "Recupera tu energía, tu salud y tu mejor versión desde hoy.",
   subheadline: "Soy tu coach de salud y te acompaño a transformar tus hábitos con un método simple, natural y efectivo.",
@@ -10,8 +13,8 @@ export const HERO_DATA = {
     "Fortalece tu sistema inmune de forma natural",
     "Ingredientes naturales, orgánicos y funcionales"
   ],
-  coachImage: "/src/assets/images/wellness_coach_portrait_1782582910502.jpg",
-  productImage: "/src/assets/images/multydrink_product_1782582896280.jpg",
+  coachImage,
+  productImage,
   ctaPrimary: "Comienza Tu Transformación →",
   ctaSecondary: "Agendar Llamada Gratis 📞"
 };
@@ -120,7 +123,7 @@ export const PRODUCT_SHOWCASE = {
     "Favorece tu bienestar digestivo e inmunológico integral"
   ],
   buttonText: "Conoce Más del Producto →",
-  image: "/src/assets/images/multydrink_product_1782582896280.jpg",
+  image: productImage,
   ingredients: [
     { name: "Extracto de Uva", role: "Rico en Resveratrol y potentes polifenoles" },
     { name: "Hongo Reishi", role: "Adaptógeno para el sistema inmune y estrés" },
@@ -150,11 +153,11 @@ export const TRANSFORMATION_STEPS: StepCard[] = [
     image: "https://images.unsplash.com/photo-1522071820081-009f0129c71c?auto=format&fit=crop&q=80&w=600"
   },
   {
-    stepNumber: 4,
-    title: "MultyDrink®",
-    description: "Integramos MultyDrink en tu rutina diaria para potenciar tu salud desde adentro.",
-    image: "/src/assets/images/multydrink_product_1782582896280.jpg"
-  },
+  stepNumber: 4,
+  title: "MultyDrink®",
+  description: "Integramos MultyDrink en tu rutina diaria para potenciar tu salud desde adentro.",
+  image: productImage
+},
   {
     stepNumber: 5,
     title: "Resultados Reales",
