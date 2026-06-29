@@ -1,0 +1,8 @@
+{
+  "name": "Vital Coach - Salud y Bienestar",
+  "description": "Premium wellness landing page and high-converting sales funnel for Health & Wellness Coach and MultyDrink antioxidant product.",
+  "requestFramePermissions": [],
+  "majorCapabilities": [
+    "MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"
+  ]
+}

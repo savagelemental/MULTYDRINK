@@ -1,0 +1,71 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&family=Playfair+Display:ital,wght@0,400;0,500;0,600;0,700;1,400&family=JetBrains+Mono:wght@400;500&display=swap');
+@import "tailwindcss";
+
+@theme {
+  --font-sans: "Inter", ui-sans-serif, system-ui, sans-serif;
+  --font-serif: "Playfair Display", Georgia, serif;
+  --font-mono: "JetBrains Mono", ui-monospace, SFMono-Regular, monospace;
+
+  /* Custom Color Palette */
+  --color-forest-950: #052219;
+  --color-forest-900: #0B3D2E;
+  --color-forest-800: #124C3A;
+  --color-forest-700: #1B5E4A;
+  --color-forest-600: #277E65;
+  --color-forest-500: #339F80;
+  --color-forest-100: #E6EFEA;
+  
+  --color-gold-600: #A88134;
+  --color-gold-500: #C29B47;
+  --color-gold-400: #D8B25E;
+  --color-gold-300: #EAD093;
+  
+  --color-cream-50: #FCFAF6;
+  --color-cream-100: #FAF6ED;
+  --color-cream-200: #F3EFE0;
+  --color-cream-300: #E6DCBF;
+  
+  --color-sand-50: #FAF9F6;
+  --color-sand-100: #F4F1EA;
+}
+
+/* Base custom styles for premium smooth scroll and glassmorphism */
+html {
+  scroll-behavior: smooth;
+}
+
+body {
+  font-family: var(--font-sans);
+  background-color: var(--color-cream-50);
+  color: var(--color-forest-950);
+}
+
+.glass {
+  background: rgba(252, 250, 246, 0.8);
+  backdrop-filter: blur(12px);
+  -webkit-backdrop-filter: blur(12px);
+}
+
+.glass-dark {
+  background: rgba(11, 61, 46, 0.85);
+  backdrop-filter: blur(12px);
+  -webkit-backdrop-filter: blur(12px);
+}
+
+/* Custom scrollbar to match the premium theme */
+::-webkit-scrollbar {
+  width: 10px;
+}
+
+::-webkit-scrollbar-track {
+  background: var(--color-cream-100);
+}
+
+::-webkit-scrollbar-thumb {
+  background: var(--color-forest-800);
+  border-radius: 5px;
+}
+
+::-webkit-scrollbar-thumb:hover {
+  background: var(--color-forest-700);
+}
