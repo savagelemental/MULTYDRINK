@@ -9,7 +9,7 @@ export default function FloatingWhatsApp() {
   const handleSend = (e: React.FormEvent) => {
     e.preventDefault();
     const encodedText = encodeURIComponent(message || "Hola, me gustaría recibir más información sobre el Método VITAL y el producto MultyDrink.");
-    const whatsappUrl = `https://wa.me/5491112345678?text=${encodedText}`;
+    const whatsappUrl = `https://wa.me/573155646015?text=${encodedText}`;
     window.open(whatsappUrl, '_blank', 'noopener,noreferrer');
     setIsOpen(false);
     setMessage('');
