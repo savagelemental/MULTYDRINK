@@ -129,7 +129,7 @@ export default function LeadModal({
                         type="text"
                         id="modal-name"
                         required
-                        placeholder="Ej. Carolina Mendoza"
+                        placeholder="Ej. Desarrollador Gustavo"
                         value={name}
                         onChange={(e) => setName(e.target.value)}
                         className="w-full px-4 py-3 rounded-xl border border-forest-800/20 bg-white text-forest-950 focus:outline-none focus:ring-2 focus:ring-forest-600 focus:border-transparent transition-all"
@@ -144,7 +144,7 @@ export default function LeadModal({
                         type="email"
                         id="modal-email"
                         required
-                        placeholder="Ej. carolina@bienestar.com"
+                        placeholder="Ej. ocamgustavo@gmail.com"
                         value={email}
                         onChange={(e) => setEmail(e.target.value)}
                         className="w-full px-4 py-3 rounded-xl border border-forest-800/20 bg-white text-forest-950 focus:outline-none focus:ring-2 focus:ring-forest-600 focus:border-transparent transition-all"
@@ -162,7 +162,7 @@ export default function LeadModal({
                         <input
                           type="tel"
                           id="modal-whatsapp"
-                          placeholder="54 9 11 1234 5678"
+                          placeholder="315 564 6015"
                           value={whatsapp}
                           onChange={(e) => setWhatsapp(e.target.value)}
                           className="w-full pl-8 pr-4 py-3 rounded-xl border border-forest-800/20 bg-white text-forest-950 focus:outline-none focus:ring-2 focus:ring-forest-600 focus:border-transparent transition-all"
