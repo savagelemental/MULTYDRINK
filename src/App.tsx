@@ -206,7 +206,7 @@ export default function App() {
                 
                 <div className="pt-2">
                   <a
-                    href="https://wa.me/5491112345678"
+                    href="https://wa.me/573155646015"
                     target="_blank"
                     rel="noopener noreferrer"
                     className="flex items-center justify-center gap-2 w-full py-3.5 rounded-xl bg-forest-900 text-gold-400 font-bold border border-gold-400/20 shadow-md"
