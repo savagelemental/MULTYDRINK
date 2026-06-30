@@ -129,7 +129,7 @@ export default function LeadModal({
                         type="text"
                         id="modal-name"
                         required
-                        placeholder="Ej. Desarrollador Gustavo"
+                        placeholder="Ej. Desarrollador Gus hazme esta pagina "
                         value={name}
                         onChange={(e) => setName(e.target.value)}
                         className="w-full px-4 py-3 rounded-xl border border-forest-800/20 bg-white text-forest-950 focus:outline-none focus:ring-2 focus:ring-forest-600 focus:border-transparent transition-all"
@@ -162,7 +162,7 @@ export default function LeadModal({
                         <input
                           type="tel"
                           id="modal-whatsapp"
-                          placeholder="315 564 6015"
+                          placeholder="57 315 564 6015"
                           value={whatsapp}
                           onChange={(e) => setWhatsapp(e.target.value)}
                           className="w-full pl-8 pr-4 py-3 rounded-xl border border-forest-800/20 bg-white text-forest-950 focus:outline-none focus:ring-2 focus:ring-forest-600 focus:border-transparent transition-all"
