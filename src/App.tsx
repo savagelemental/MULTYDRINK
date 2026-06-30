@@ -165,7 +165,7 @@ export default function App() {
             {/* Right Action button */}
             <div className="hidden md:flex items-center">
               <a
-                href="https://wa.me/5491112345678?text=Hola,%20me%20interesa%20agendar%20una%20llamada%20de%20diagn%C3%B3stico%20gratuita."
+                href="https://wa.me/3155646015?text=Hola,%20me%20interesa%20agendar%20una%20llamada%20de%20diagn%C3%B3stico%20gratuita."
                 target="_blank"
                 rel="noopener noreferrer"
                 id="header-whatsapp-btn"
